@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: 我的填坑记录
+subtitle: 填完一个坑又有新的坑，一直在填坑从未停止<br>我们是填坑工程师
+description: 在这里记录下平时开发过程中遇到的一些坑以及解决方案。
+author: 曾志翔
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://zzx18023.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,9 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/zzx18023/zzx18023.github.io.git
+  branch: master
